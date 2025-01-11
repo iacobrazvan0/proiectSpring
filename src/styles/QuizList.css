@@ -1,0 +1,51 @@
+/* Container pentru lista de quiz-uri */
+.quiz-list-container {
+    padding: 20px;
+  }
+  
+  /* Grid layout pentru quiz-uri */
+  .quiz-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 3-4 quiz-uri pe linie */
+    gap: 20px;
+  }
+  
+  /* Card pentru fiecare quiz */
+  .quiz-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .quiz-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Titlul quiz-ului */
+  .quiz-card h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  /* Buton pentru "Attempt Test" */
+  .attempt-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+  }
+  
+  .attempt-button:hover {
+    background-color: #45a049;
+  }
+  
